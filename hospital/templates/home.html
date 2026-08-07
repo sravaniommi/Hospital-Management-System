@@ -1,0 +1,260 @@
+{% include 'base.html' %}
+{% load static %}
+{% include 'navigation.html' %}
+{% include 'style.css' %}
+{% block content %}
+
+        <div class="home-page">
+            <img src="{% static 'images/3.jpg ' %}" class="d-block w-100" alt="...">
+            <div class="carousel-caption text-white">
+                <div class="background-1">
+                    <h2>Surgery</h2>
+                    <p>Surgery is a medical specialty that uses operative manual and instrumental techniques on a person
+                        to investigate or treat a pathological condition such as a disease or injury, to help improve
+                        bodily function or appearance or to repair unwanted ruptured areas.
+                    </p>
+                    <button class="btn btn-light"><a href="#departments" class="nav-link">See All Services</a></button>
+                </div>
+            </div>
+        </div>
+        
+    
+</div>
+
+
+<!--------------Medical Services -------------------->
+<div class="container-fluid" id="departments">
+    <div class="row">
+        <div class="col-md-12">
+            <h4 class="text-center text-primary">Departments</h4>
+            <h1 class="text-center">Medical services</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- Row 1 -->
+        <div class="col-md-4 mb-4 d-flex justify-content-center">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="{% static 'images/child.jpg ' %}" style="max-height: 200px; object-fit: cover;" alt="Pediatricians">
+                <div class="card-body">
+                    <p class="card-text text-center mb-0" style="padding-top: 10px;">Pediatricians</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4 d-flex justify-content-center">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="{% static 'images/gynic.jpg ' %}" style="max-height: 200px; object-fit: cover;" alt="Gynecologist">
+                <div class="card-body">
+                    <p class="card-text text-center mb-0" style="padding-top: 10px;">Gynecologist</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4 d-flex justify-content-center">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="{% static 'images/ortho.jpg ' %}" style="max-height: 200px; object-fit: cover;" alt="Orthopedic">
+                <div class="card-body">
+                    <p class="card-text text-center mb-0" style="padding-top: 10px;">Orthopedic</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- Row 2 -->
+        <div class="col-md-4 mb-4 d-flex justify-content-center">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="{% static 'images/cardio.jpg ' %}" style="max-height: 200px; object-fit: cover;" alt="Cardiology">
+                <div class="card-body">
+                    <p class="card-text text-center mb-0" style="padding-top: 10px;">Cardiology</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4 d-flex justify-content-center">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="{% static 'images/phy.jpg ' %}" style="max-height: 200px; object-fit: cover;" alt="Physician">
+                <div class="card-body">
+                    <p class="card-text text-center mb-0" style="padding-top: 10px;">Physician</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4 d-flex justify-content-center">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="{% static 'images/nuro.jpg ' %}" style="max-height: 200px; object-fit: cover;" alt="Neurologists">
+                <div class="card-body">
+                    <p class="card-text text-center mb-0" style="padding-top: 10px;">Neurologists</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+       
+    
+        <!----------------------Medical Services End--------------->
+
+
+
+        <!-----------------------------Other Services Section Beginning-------------------->
+
+
+        
+        <div class="container-fluid" id="services">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="text-center">Other Services</h1>
+                </div>
+            </div>
+        
+            <div class="row">
+                <!-- Card 1 -->
+                <div class="col-md-4 mb-4 d-flex justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="{% static 'images/emer.jpg' %}" style="max-height: 200px; object-fit: cover;" alt="Emergency">
+                        <div class="card-body">
+                            <p class="card-text text-center mb-0" style="padding-top: 10px;">Emergency</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Card 2 -->
+                <div class="col-md-4 mb-4 d-flex justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="{% static 'images/Pharmacy.jpg' %}" style="max-height: 200px; object-fit: cover;" alt="Pharmacy">
+                        <div class="card-body">
+                            <p class="card-text text-center mb-0" style="padding-top: 10px;">Pharmacy</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Card 3 -->
+                <div class="col-md-4 mb-4 d-flex justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="{% static 'images/endo.jpg' %}" style="max-height: 200px; object-fit: cover;" alt="Endoscopy">
+                        <div class="card-body">
+                            <p class="card-text text-center mb-0" style="padding-top: 10px;">Endoscopy</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Card 4 -->
+                <div class="col-md-4 mb-4 d-flex justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="{% static 'images/usg.jpg' %}" style="max-height: 200px; object-fit: cover;" alt="USG">
+                        <div class="card-body">
+                            <p class="card-text text-center mb-0" style="padding-top: 10px;">USG</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Card 5 -->
+                <div class="col-md-4 mb-4 d-flex justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="{% static 'images/lab.jpg' %}" style="max-height: 200px; object-fit: cover  ;" alt="Lab">
+                        <div class="card-body">
+                            <p class="card-text text-center mb-0" style="padding-top: 10px;">Lab</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Card 6 -->
+                <div class="col-md-4 mb-4 d-flex justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="{% static 'images/x-ray.jpg' %}" style="max-height: 200px; object-fit: cover;" alt="Digital X-Ray">
+                        <div class="card-body">
+                            <p class="card-text text-center mb-0" style="padding-top: 10px;">Digital X-Ray</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+<!------------------------------End of Other services---------------------->
+
+
+
+<!-------------------Meet Our Team Section----------------->
+<div class="container-fluid" id="services">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="text-center">Doctors</h1>
+        </div>
+    </div>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+
+
+
+
+<div class="row owl-carousel owl-theme">
+    <div class="card shadow text-center items">
+        <div class="card-body profile-card">
+            <img class="img-thumbnail" src="{% static 'images/tarun.jpg' %}">
+            <h4 class="card-title" style="font-size: 18px;">Dr. Tarun</h4>
+            <h6 class="card-subtitle">Senior Consultant Surgeon</h6>
+            <p class="card-text">MBBS, MS(TU), FMAS, DMAS (WLH)</p>
+            <a href="https://facebook.com" class="card-link"><i class="fab fa-facebook"></i></a>
+            <a href="https://instagram.com" class="card-link"><i class="fab fa-instagram"></i></a>
+            <a href="https://linkedin.com" class="card-link"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+
+    <div class="card shadow text-center items">
+        <div class="card-body profile-card">
+            <img class="img-thumbnail" src="{% static 'images/abhira.jpg' %}">
+            <h4 class="card-title" style="font-size: 18px;">Dr. Abhira Sharma</h4>
+            <h6 class="card-subtitle">Gynecologist And Obstetrician</h6>
+            <p class="card-text">MBBS, MD (NMC)</p>
+            <a href="https://facebook.com" class="card-link"><i class="fab fa-facebook"></i></a>
+            <a href="https://instagram.com" class="card-link"><i class="fab fa-instagram"></i></a>
+            <a href="https://linkedin.com" class="card-link"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+
+    <div class="card shadow text-center items">
+        <div class="card-body profile-card">
+            <img class="img-thumbnail" src="{% static 'images/rohit.jpg' %}">
+            <h4 class="card-title" style="font-size: 18px;">Dr. Rohit</h4>
+            <h6 class="card-subtitle">Orthopedic Surgeon</h6>
+            <p class="card-text">MBBS, MS Orthopedic</p>
+            <a href="https://facebook.com" class="card-link"><i class="fab fa-facebook"></i></a>
+            <a href="https://instagram.com" class="card-link"><i class="fab fa-instagram"></i></a>
+            <a href="https://linkedin.com" class="card-link"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+
+    <div class="card shadow text-center items">
+        <div class="card-body profile-card">
+            <img class="img-thumbnail" src="{% static 'images/sirisha.avif' %}">
+            <h4 class="card-title" style="font-size: 18px;">Dr. Sirisha</h4>
+            <h6 class="card-subtitle">Consultant Physician</h6>
+            <p class="card-text">MBBS, MD (Internal Medicine)</p>
+            <a href="https://facebook.com" class="card-link"><i class="fab fa-facebook"></i></a>
+            <a href="https://instagram.com" class="card-link"><i class="fab fa-instagram"></i></a>
+            <a href="https://linkedin.com" class="card-link"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+
+    <div class="card shadow text-center items">
+        <div class="card-body profile-card">
+            <img class="img-thumbnail" src="{% static 'images/dev.jpg' %}">
+            <h4 class="card-title" style="font-size: 18px;">Dr. Dev</h4>
+            <h6 class="card-subtitle text-muted">Cardiologist</h6>
+            <p class="card-text mt-2">MBBS, MD (Cardiology)</p>
+            <a href="https://facebook.com" class="card-link"><i class="fab fa-facebook"></i></a>
+            <a href="https://instagram.com" class="card-link"><i class="fab fa-instagram"></i></a>
+            <a href="https://linkedin.com" class="card-link"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+
+</div>
+</div>
+
+
+{% endblock content %}
+{% include 'foot.html' %}
+{% include 'footer.html' %}
